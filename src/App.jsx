@@ -12,7 +12,7 @@ export default function App() {
       <TopBar />
       <div className="content-wrapper">
         <div id="#home"><MainContent /></div>
-        <div id="#judge"><JudgePanel /></div>
+        {/* <div id="#judge"><JudgePanel /></div> */}
         <div id="#prizes"><Prizepool /></div>
         <div id="#rules"><Rules /></div>
         <div id="#faqs"><FAQs /></div>

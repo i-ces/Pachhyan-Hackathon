@@ -20,7 +20,7 @@ export default function Accordion({ title, description }) {
         </div>
       </div>
       {isExpanded && (
-        <div className="border border-gray-300 p-4 laptop:w-[50rem] mobile:w-96">
+        <div className="border text-lg border-gray-300 p-4 laptop:w-[50rem] mobile:w-96">
           {description}
         </div>
       )}
