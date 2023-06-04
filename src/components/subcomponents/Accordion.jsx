@@ -11,7 +11,7 @@ export default function Accordion({ title, description }) {
   };
 
   return (
-   <div>
+   <div >
      <div className="accordion">
       <div className="accordion-header" onClick={toggleAccordion}>
         <div className="accordion-title">{title}</div>
@@ -20,7 +20,7 @@ export default function Accordion({ title, description }) {
     </div>
     {isExpanded && (
         <div className="accordion-content">
-          <p>{description}</p>
+          {description}
         </div>
       )}
    </div>

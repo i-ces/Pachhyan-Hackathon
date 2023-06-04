@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght&display=swap%27');
 .title {
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 600;
     color: #F3F3F3;
-    font-family: "Rufina", sans-serif;
+    font-family: "Signika", sans-serif;
   }
   

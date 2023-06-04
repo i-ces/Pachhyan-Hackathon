@@ -1,13 +1,14 @@
 import React from 'react';
 import './price.css';
 
-export default function Price({ amount, color }) {
+export default function Price({ amount, color, fontSize }) {
   const containerStyle = {
     borderColor: color,
   };
 
   const textStyle = {
     color: color,
+    fontSize:fontSize,
   };
 
   return (

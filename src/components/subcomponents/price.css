@@ -26,7 +26,6 @@
     font-weight: bold;
     color: #333;
     z-index: 2;
-    /* -webkit-text-fill-color: #ffc107; */
     text-shadow: 
       -3px -3px 0 #fff,
       3px -3px 0 #fff,
@@ -36,12 +35,10 @@
   }
   
   .price-amount {
-    font-size: 24px;
     font-weight: bold;
     color: #333;
     margin-top: 5px;
     z-index: 2;
-    /* -webkit-text-fill-color:pink; */
     text-shadow: 
       -3px -3px 0 #fff,
       3px -3px 0 #fff,
