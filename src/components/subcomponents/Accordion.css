@@ -1,17 +1,22 @@
+.accordion-parent{
+  width: 100%;
+}
 .accordion {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
+    width: 100%;
   }
   
   .accordion-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 24px 48px;
     background-color: #242961;
     cursor: pointer;
     font-weight: bold;
+    font-size: 24px;
   }
   
   .accordion-title {
@@ -20,13 +25,10 @@
   }
   
   .accordion-content {
+    position: inherit;
     border:.5px solid #ccc;
     padding: 10px;
     max-height: fit-content;
+    width: 98%;
+    word-wrap: break-word;
   }
-  
-  
-  .accordion-content p {
-    margin: 0;
-  }
-  
