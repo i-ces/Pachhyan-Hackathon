@@ -1,0 +1,28 @@
+.prizepool-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .prize-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .prize-image-1 {
+    width: 320px;
+    overflow: hidden;
+  }
+  
+  .prize-image-2 {
+    width: 320px;
+    overflow: hidden;
+  }
+  
+  .price-tag {
+    margin-top: -40px;
+    z-index: 1;
+  }
+  
