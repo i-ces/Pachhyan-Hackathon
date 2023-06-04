@@ -15,12 +15,10 @@ export default function MainContent() {
             <img src="/images/data.png" alt="something1" height={100} width={100} />
           </div>
         </div>
-        <div className="mt-8 text-4xl font-bold">Pachyaan Hackathon</div>
+        <div className="mt-8 text-4xl font-bold">Pachhyan Hackathon</div>
         <div className="mt-4 max-w-2xl px-8">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam inventore dolore provident.
-            Iste cupiditate doloribus labore! Nisi excepturi, veritatis facilis rem voluptates tempore aliquid quo ipsum
-            quis fuga cumque.
+          Pachhyan hackathon is a 48 hour event on the theme “Culture and Tourism: Unleashing Technology's Potential”  with the aim of fostering innovation and promoting the cultural heritage and tourism potential. In today's rapidly evolving world, technology has become an integral part of our daily lives, shaping industries and transforming the way we interact with the world around us. The culture and tourism sectors are no exception, with technology offering endless possibilities for enhancing visitor experiences, preserving cultural heritage, and promoting sustainable tourism practices. This  hackathon seeks to harness the creative power of technology enthusiasts, developers, designers, and entrepreneurs to ideate, collaborate, and develop innovative solutions that will revolutionize the culture and tourism landscape.
           </p>
         </div>
       </div>

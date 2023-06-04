@@ -7,7 +7,7 @@
         return (
         <nav className="navigation">
             <a href="/" className="brand-name">
-            Pachyand
+            Pachhyan Hackathon 
             </a>
             <div>
             <button className="hamburger"  onClick={() => {

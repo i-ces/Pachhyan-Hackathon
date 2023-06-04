@@ -7,7 +7,7 @@ export default function Rules() {
     <div className="rules-container">
       <div className="rules-section">
         <Title text="title1" className="rules-title" />
-        <div className="rules-content">
+        <div className="rules-content pt-3">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non adipisci tempora sapiente nisi mollitia fugit
             omnis in dolorem ipsum assumenda! Officiis porro necessitatibus rerum, quidem voluptatum quia! Odit, odio fugit?
@@ -16,7 +16,7 @@ export default function Rules() {
       </div>
       <div className="rules-section">
         <Title text="title2" className="rules-title" />
-        <div className="rules-content">
+        <div className="rules-content pt-3">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non adipisci tempora sapiente nisi mollitia fugit
             omnis in dolorem ipsum assumenda! Officiis porro necessitatibus rerum, quidem voluptatum quia! Odit, odio fugit?
@@ -25,7 +25,7 @@ export default function Rules() {
       </div>
       <div className="rules-section">
         <Title text="title3" className="rules-title" />
-        <div className="rules-content">
+        <div className="rules-content pt-3">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non adipisci tempora sapiente nisi mollitia fugit
             omnis in dolorem ipsum assumenda! Officiis porro necessitatibus rerum, quidem voluptatum quia! Odit, odio fugit?

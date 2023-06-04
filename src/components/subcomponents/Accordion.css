@@ -28,7 +28,7 @@
     position: inherit;
     border:.5px solid #ccc;
     padding: 10px;
-    width: 98%;
+    /* width: 98%; */
     word-wrap: break-word;
     font-weight: 600;
     font-size: 32;
