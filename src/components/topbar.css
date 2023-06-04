@@ -23,7 +23,7 @@ button{
 
   .brand-name {
     text-decoration: none;
-    color: white;
+    color: #F3F3F3;
     font-size: 1.3rem;
     margin-left: 1rem;
   }
@@ -39,7 +39,7 @@ button{
     margin: 0 1rem;
   }
   .navigation-menu li a {
-    text-decoration: black;
+    text-decoration: #F3F3F3;
     display: block;
     width: 100%;
   }
