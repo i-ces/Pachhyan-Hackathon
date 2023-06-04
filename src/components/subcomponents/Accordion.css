@@ -28,7 +28,8 @@
     position: inherit;
     border:.5px solid #ccc;
     padding: 10px;
-    max-height: fit-content;
     width: 98%;
     word-wrap: break-word;
+    font-weight: 600;
+    font-size: 32;
   }
