@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "question": "What is the pricing for your product?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lorem nc eleifend, sit amet porta eros finibus."
+  },
+  {
+    "id": 2,
+    "question": "How can I contact your support team?",
+    "answer": "Nulla vestibulum ex a fringilla luctus. Cras tincidunt orci quis turpis congue, sit amet hendrerit eros posuere."
+  },
+  {
+    "id": 3,
+    "question": "Is there a free trial available?",
+    "answer": "Donec eu sapien sit amet nisi euismod convallis. Nulla facilisi. Sed lacinia luctus dapibus."
+  },
+  {
+    "id": 4,
+    "question": "What are the available payment methods?",
+    "answer": "Praesent quis nisl pharetra, dapibus neque vel, varius nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+  },
+  {
+    "id": 5,
+    "question": "Can I upgrade my plan at any time?",
+    "answer": "Fusce ullamcorper dui vitae dui laoreet, vitae venenatis lacus hendrerit. Nullam in justo malesuada, cursus urna vitae, tempus augue."
+  },
+ 
+  {
+    "id": 8,
+    "question": "What are the system requirements?",
+    "answer": "Curabitur dignissim sem sit amet diam gravida, et tempor nulla convallis. Sed condimentum ligula sit amet massa ullamcorper, ut aliquet metus scelerisque."
+  },
+  {
+    "id": 9,
+    "question": "Can I cancel my subscription anytime?",
+    "answer": "Vestibulum aliquet mi sl mattis, at volutpat ligula finibus. Sed suscipit turpis a dolor tincidunt rhoncus."
+  },
+  {
+    "id": 10,
+    "question": "Do you offer a developer API?",
+    "answer": "Integer scelerisque lectus eget ex consectetur, at sagittis lorem ullamcorper. Aliquam erat volutpat. Donec scelerisque tristique lacus, sit amet tempus felis maximus vel."
+  }]
