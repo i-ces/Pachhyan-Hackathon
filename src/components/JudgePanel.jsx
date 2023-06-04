@@ -1,5 +1,5 @@
 import React from 'react'
-import "judgepanel.css"
+import "./judgepanel.css"
 import logo from"../../public/logo192.png"
 
 const JudgePanel = () => {
