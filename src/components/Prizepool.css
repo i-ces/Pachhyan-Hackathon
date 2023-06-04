@@ -1,3 +1,10 @@
+.prizepool{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 76px;
+}
 .prizepool-container {
     display: flex;
     justify-content: center;
@@ -12,12 +19,12 @@
   }
   
   .prize-image-1 {
-    width: 320px;
+    width: 180px;
     overflow: hidden;
   }
   
   .prize-image-2 {
-    width: 320px;
+    width: 180px;
     overflow: hidden;
   }
   

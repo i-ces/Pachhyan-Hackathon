@@ -1,13 +1,14 @@
 import React from 'react'
 import "./judgepanel.css"
-import logo from"../../public/logo192.png"
+import Title from './subcomponents/Title'
 
 const JudgePanel = () => {
   return (
-    <div className='judgepanel_main'>
-      <img src={logo} alt="photo"/>
-      <img src={logo} alt="photo"/>
-      <img src={logo} alt="photo"/>
+    <div>
+      <Title text="Judge Panel"/>
+      <div className='judgepanel_main'>
+      something good here
+    </div>
     </div>
   )
 }

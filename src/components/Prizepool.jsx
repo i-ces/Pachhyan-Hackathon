@@ -1,11 +1,14 @@
 import React from 'react';
 import Price from './subcomponents/Price';
 import './Prizepool.css';
+import Title from './subcomponents/Title';
 
 export default function Prizepool() {
   return (
+     <div className='prizepool'>
+      <Title text="Prize Pool"/>
     <div className="prizepool-container">
-      <div className="prize-container">
+    <div className="prize-container">
         <img src="/images/Award.png" alt="cup1" className="prize-image-1" />
         <div className="price-tag">
           <Price amount={25000} color={"#ffc107"}/>
@@ -18,5 +21,6 @@ export default function Prizepool() {
         </div>
       </div>
     </div>
+     </div>
   );
 }
