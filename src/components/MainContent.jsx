@@ -14,7 +14,7 @@ export default function MainContent() {
             <img src="/images/data.png" alt="something1" height={100} width={100} />
           </div>
         </div>
-        <div className="title">Pachyaan Hackathon</div>
+        <div className="title-main">Pachyaan Hackathon</div>
         <div className="description">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam inventore dolore provident.

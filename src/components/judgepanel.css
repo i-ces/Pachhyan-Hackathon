@@ -1,14 +1,16 @@
-.judgepanel_main{
+.mentors{
     display: flex;
     flex-direction: column;
-   width:200px;
-   height: 200px;
-   border-radius: 50%;
-   overflow: hidden;
+    gap:48px;
+    justify-content: center;
+    align-items: center;
 }
 
-.judgepanel_main img{
-    width:100%;
-    height: auto;
-    object-fit: cover;
-}
+.mentors-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:32px;
+  }
+  
+  
