@@ -11,11 +11,11 @@ export default function App() {
     <div className="app-container">
       <TopBar />
       <div className="content-wrapper">
-        <div><MainContent /></div>
-        <div><JudgePanel /></div>
-        <div><Prizepool /></div>
-        <div><Rules /></div>
-        <div><FAQs /></div>
+        <div id="#home"><MainContent /></div>
+        <div id="#judge"><JudgePanel /></div>
+        <div id="#prizes"><Prizepool /></div>
+        <div id="#rules"><Rules /></div>
+        <div id="#faqs"><FAQs /></div>
       </div>
     </div>
   );
