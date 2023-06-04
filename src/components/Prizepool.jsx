@@ -1,7 +1,7 @@
 import React from 'react';
 import Price from './subcomponents/Price';
-import './Prizepool.css';
 import Title from './subcomponents/Title';
+import './Prizepool.css';
 
 export default function Prizepool() {
   return (
