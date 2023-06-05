@@ -2,11 +2,6 @@ a {
   color: white;
 }
 
-button {
-  border: none;
-  background-color: transparent;
-  margin-right: 16px;
-}
 
 .navigation {
   position: sticky;
@@ -17,9 +12,9 @@ button {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background: #1F2334;
-  /* color: white; */
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+
 }
 
 .brand-name {
@@ -83,7 +78,7 @@ button {
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 77px);
-    background-color: white;
+    background-color: #1F2334;
     border-top: 1px solid black;
   }
 
@@ -97,9 +92,6 @@ button {
     padding: 1.5rem 0;
   }
 
-  .navigation-menu li:hover {
-    background-color: #eee;
-  }
 }
 
 @media screen and (max-width: 768px) {

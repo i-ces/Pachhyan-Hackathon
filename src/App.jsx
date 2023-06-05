@@ -1,11 +1,12 @@
-import React, { useEffect } from 'react';
-import TopBar from './components/TopBar';
-import Rules from './components/Rules';
-import Prizepool from './components/Prizepool';
-import MainContent from './components/MainContent';
-import FAQs from './components/FAQs';
-import Sponsors from './components/Sponsors';
-import './App.css';
+import React, { useEffect } from "react";
+import TopBar from "./components/TopBar";
+import Rules from "./components/Rules";
+import Prizepool from "./components/Prizepool";
+import MainContent from "./components/MainContent";
+import FAQs from "./components/FAQs";
+import Sponsors from "./components/Sponsors";
+import "./App.css";
+import Footer from "./components/Footer";
 
 export default function App() {
   useEffect(() => {
@@ -14,17 +15,17 @@ export default function App() {
       if (hash) {
         const element = document.querySelector(hash);
         if (element) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       } else {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
     };
 
-    window.addEventListener('hashchange', handleHashChange);
+    window.addEventListener("hashchange", handleHashChange);
 
     return () => {
-      window.removeEventListener('hashchange', handleHashChange);
+      window.removeEventListener("hashchange", handleHashChange);
     };
   }, []);
 
@@ -47,6 +48,7 @@ export default function App() {
         <div id="faqs" className="App-faqs">
           <FAQs />
         </div>
+        <Footer />
       </div>
     </div>
   );
