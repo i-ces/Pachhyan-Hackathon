@@ -21,19 +21,8 @@ export default function MainContent() {
         </div>
         <div className="mt-4 max-w-4xl px-8">
           <p>
-          <b> EthosHack</b> is a 48 hour event on the theme “Culture and
-            Tourism: Unleashing Technology's Potential” with the aim of
-            fostering innovation and promoting the cultural heritage and tourism
-            potential. In today's rapidly evolving world, technology has become
-            an integral part of our daily lives, shaping industries and
-            transforming the way we interact with the world around us. The
-            culture and tourism sectors are no exception, with technology
-            offering endless possibilities for enhancing visitor experiences,
-            preserving cultural heritage, and promoting sustainable tourism
-            practices. This hackathon seeks to harness the creative power of
-            technology enthusiasts, developers, designers, and entrepreneurs to
-            ideate, collaborate, and develop innovative solutions that will
-            revolutionize the culture and tourism landscape.
+            <b>EthosHack</b> is a 24-hours long hackathon organized by Sudur Paschim Samparka Samaj, Pashchimanchal Campus in collaboration with Innovative Computer Engineering Students' Society (i-CES), which is targeted to any Nepalese student who wants to come together to collaboratively work on developing new ideas on a software, applications, or solutions within the specified timeframe based on the theme "Culture And Tourism‟.
+            This event serves as a platform for the convergence of technology and culture, where we strive to forge meaningful connections that harness the transformative power of innovation to amplify and preserve the richness of our diverse cultural heritage. The hackathon aims to promote cultural exploration and appreciation and encourages the participants to leverage technology and innovation to create projects that showcase and celebrate the diverse cultural heritage, traditions, and attractions of different regions of Nepal.
           </p>
         </div>
         <div className="bg-blue p-6">
