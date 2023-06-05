@@ -37,7 +37,7 @@ export default function MainContent() {
         </div>
         <div className="mt-4 max-w-4xl px-8">
           <p>
-            Pachhyan hackathon is a 48 hour event on the theme “Culture and
+            Ethos<b>Hack</b> is a 48 hour event on the theme “Culture and
             Tourism: Unleashing Technology's Potential” with the aim of
             fostering innovation and promoting the cultural heritage and tourism
             potential. In today's rapidly evolving world, technology has become
@@ -54,7 +54,7 @@ export default function MainContent() {
         </div>
         <div className="bg-blue p-6">
           <a href="/that time we needed the link for the registration">
-            <button>Register now</button>
+            <button>Register Now</button>
           </a>
         </div>
       </div>
