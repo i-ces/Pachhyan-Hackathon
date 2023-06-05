@@ -9,7 +9,7 @@ export default function Rules() {
         <Title text="Guidelines" className="rules-title" />
         <div className="rules-content pt-3 px-5 text-left">
           <ul className='list-decimal'>
-            <li>The hackathon will run for 24 hours nonstop from 15th(9am) to 16th(9am) of Ashad.</li>
+            <li>The hackathon will run for 24 hours nonstop from 15th(8am) to 16th(8am) of Ashad.</li>
             <li>Each team has to pay Rs. 2000 as registration fee, but afterwards the team selected for hackathon.</li>
             <li>Registration after deadline will not be accepted.</li>
             <li>Projects should be under the provided domain.</li>
