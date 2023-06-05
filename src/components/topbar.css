@@ -8,12 +8,12 @@ button{
 }
 
 .navigation {
+  position: sticky;
   height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
   padding: 0.5rem 0rem;
   background: #1F2334;
   /* color: white; */
@@ -38,15 +38,32 @@ button{
     list-style-type: none;
     margin: 0 1rem;
   }
-  .navigation-menu li a {
-    text-decoration: #F3F3F3;
-    display: block;
-    width: 100%;
-  }
   .hamburger {
     display: none;
   }
 
+  .nav-link {
+    text-decoration: none;
+    color: #f3f3f3;
+    position: relative;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #6ae58e;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
   @media screen and (max-width: 768px) {
     .hamburger {
       display: block;
