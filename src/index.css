@@ -8,6 +8,10 @@ body {
   background-color: #23263A;
   color: #f3f3f3;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; 
+  transition: transform 0.5s ease;
 }
 
 code {
