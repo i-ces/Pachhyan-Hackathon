@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { List, X } from 'phosphor-react';
-import './topbar.css';
+import React, { useState } from "react";
+import { List, X } from "phosphor-react";
+import "./topbar.css";
 
 export default function TopBar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -12,14 +12,25 @@ export default function TopBar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        Pachhyan Hackathon
+        <div className="text-3xl flex justify-center items-center">
+          <span>ETHOS</span>
+          <span
+            style={{
+              color: "#32CD32",
+            }}
+          >
+            HACK
+          </span>
+        </div>
       </a>
-      <div>
+      <div className=" bg-[#1F2334]">
         <button className="hamburger" onClick={toggleNav}>
           {!isNavExpanded ? <List size={32} /> : <X size={32} />}
         </button>
         <div
-          className={`navigation-menu ${isNavExpanded ? 'expanded' : ''}`}
+          className={`navigation-menu bg-[#1F2334] ${
+            isNavExpanded ? "expanded" : ""
+          }`}
         >
           <ul>
             <li className="nav-link">
