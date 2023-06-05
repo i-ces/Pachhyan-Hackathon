@@ -2,12 +2,12 @@ import React from 'react';
 import Title from './subcomponents/Title';
 
 const sponsorsData = [
-  { id: 1, logo: 'sponsor.png' },
-  { id: 2, logo: 'sponsor.png' },
-  { id: 3, logo: 'sponsor.png' },
-  { id: 4, logo: 'sponsor.png' },
-  { id: 5, logo: 'sponsor.png' },
-  { id: 6, logo: 'sponsor.png' },
+  { id: 1, logo: 'logo.png' },
+  { id: 2, logo: 'logo.png' },
+  { id: 3, logo: 'logo.png' },
+  { id: 4, logo: 'logo.png' },
+  { id: 5, logo: 'logo.png' },
+  { id: 6, logo: 'logo.png' },
   // Add more sponsors as needed
 ];
 
@@ -18,7 +18,7 @@ export default function Sponsors() {
 
       <div className="flex flex-wrap gap-4 items-center justify-center m-t-96">
       {sponsorsData.map((sponsor) => (
-        <div key={sponsor.id} className="flex items-center justify-center border border-white">
+        <div key={sponsor.id} className="flex items-center justify-center border-rounded">
           <img src={`/images/${sponsor.logo}`} alt={`Sponsor ${sponsor.id}`} className="w-96 h-auto object-contain" />
         </div>
       ))}
