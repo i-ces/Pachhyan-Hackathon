@@ -21,9 +21,7 @@ export default function MainContent() {
         </div>
         <div className="mt-4 max-w-4xl px-8">
           <p>
-            <b>EthosHack</b> is a 24-hours long hackathon organized by Sudur Paschim Samparka Samaj, Pashchimanchal Campus in collaboration with Innovative Computer Engineering Students' Society (i-CES), which is targeted to any Nepalese student who wants to come together to collaboratively work on developing new ideas on a software, applications, or solutions within the specified timeframe based on the theme "Culture And Tourism‟.
-            This event serves as a platform for the convergence of technology and culture, where we strive to forge meaningful connections that harness the transformative power of innovation to amplify and preserve the richness of our diverse cultural heritage. The hackathon aims to promote cultural exploration and appreciation and encourages the participants to leverage technology and innovation to create projects that showcase and celebrate the diverse cultural heritage, traditions, and attractions of different regions of Nepal.
-          </p>
+            <b>EthosHack</b> is a 24-hour hackathon organized by Sudur Paschim Samparka Samaj and Pashchimanchal Campus, in collaboration with the Innovative Computer Engineering Students' Society. It brings together Nepalese students with a shared interest in technology, culture, and innovation. The hackathon aims to celebrate and preserve Nepal's diverse cultural heritage by combining technology and innovation. Participants are encouraged to create projects that showcase the cultural richness, traditions, and attractions of different regions of Nepal. EthosHack provides a platform for collaboration, idea generation, and development of software, applications, and solutions.</p>
         </div>
         <div className="bg-blue p-6">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYav028UepPC0EVpm6qqMUct8W1lPRBEQ9IJTnggdGFkOwvA/viewform" target="blank">
