@@ -2,28 +2,12 @@ import React from "react";
 
 export default function MainContent() {
   return (
-    <div className="flex justify-center h-screen">
+    <div className="flex justify-center items-center h-screen">
       <div className="flex flex-col items-center text-center">
         <div className="flex justify-center gap-20">
-          {/*<div className="flex items-center justify-center w-24 h-24">
-            <img
-              src="/images/data.png"
-              alt="something1"
-              height={100}
-              width={100}
-            />
-          </div>*/}
           <div className="flex justify-center items-center">
             <img src="/images/logo.png" alt="logo" width={400} />
           </div>
-          {/*<div className="flex items-center justify-center w-24 h-24">
-            <img
-              src="/images/data.png"
-              alt="something1"
-              height={100}
-              width={100}
-            />
-          </div>*/}
         </div>
         <div className="mt-8 text-4xl font-bold">
           <span>Ethos</span>
@@ -37,7 +21,7 @@ export default function MainContent() {
         </div>
         <div className="mt-4 max-w-4xl px-8">
           <p>
-            Ethos<b>Hack</b> is a 48 hour event on the theme “Culture and
+          <b> EthosHack</b> is a 48 hour event on the theme “Culture and
             Tourism: Unleashing Technology's Potential” with the aim of
             fostering innovation and promoting the cultural heritage and tourism
             potential. In today's rapidly evolving world, technology has become
@@ -53,7 +37,7 @@ export default function MainContent() {
           </p>
         </div>
         <div className="bg-blue p-6">
-          <a href="/that time we needed the link for the registration">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYav028UepPC0EVpm6qqMUct8W1lPRBEQ9IJTnggdGFkOwvA/viewform" target="blank">
             <button>Register Now</button>
           </a>
         </div>
