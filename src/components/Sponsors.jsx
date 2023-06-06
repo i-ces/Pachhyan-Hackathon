@@ -3,11 +3,6 @@ import Title from './subcomponents/Title';
 
 const sponsorsData = [
   { id: 1, logo: 'logo.png' },
-  { id: 2, logo: 'logo.png' },
-  { id: 3, logo: 'logo.png' },
-  { id: 4, logo: 'logo.png' },
-  { id: 5, logo: 'logo.png' },
-  { id: 6, logo: 'logo.png' },
   // Add more sponsors as needed
 ];
 
