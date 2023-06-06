@@ -2,9 +2,16 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  
 }
 
 .App-rules {
+  margin-top: 8rem;
+}
+
+.App-sponsors{
+  margin-top: 5rem;
+}
+.App-coordinators{
   margin-top: 8rem;
 }

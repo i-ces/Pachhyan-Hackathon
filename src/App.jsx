@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import TopBar from "./components/TopBar";
-import Rules from "./components/Rules";
-import Prizepool from "./components/Prizepool";
 import MainContent from "./components/MainContent";
+import Prizepool from "./components/Prizepool";
+import Rules from "./components/Rules";
+import JudgePanel from  "./components/JudgePanel";
 import FAQs from "./components/FAQs";
 import Sponsors from "./components/Sponsors";
-import "./App.css";
 import Footer from "./components/Footer";
+import "./App.css";
 
 export default function App() {
   useEffect(() => {
@@ -41,6 +42,9 @@ export default function App() {
         </div>
         <div id="sponsors" className="App-sponsors">
           <Sponsors />
+        </div>
+        <div id="coordinators" className="App-coordinators">
+          <JudgePanel/>
         </div>
         <div id="rule-book" className="App-rules">
           <Rules />

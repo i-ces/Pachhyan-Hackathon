@@ -43,6 +43,9 @@ export default function TopBar() {
               <a href="#sponsors">Sponsors</a>
             </li>
             <li className="nav-link">
+              <a href="#coordinators">Contact</a>
+            </li>
+            <li className="nav-link">
               <a href="#rule-book">Code of Conduct</a>
             </li>
             <li className="nav-link">

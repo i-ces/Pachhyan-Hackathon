@@ -7,38 +7,34 @@ const JudgePanel = () => {
   const mentorsData = [
     {
       id: 1,
-      name: 'John Doe',
-      position: 'Senior Developer',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-   avatar:'/images/avatar.jpg'
+      name: 'Tilak Khatri',
+      position: 'Coordinator',
+   avatar:'/images/tilak_avatar.jpg',
+   social:'https://www.facebook.com/tilak.khatri.50309277',
+   phone:9809456396
     },
     {
       id: 2,
-      name: 'Jane Smith',
-      position: 'UX Designer',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      avatar:'/images/avatar.jpg'
-    },
-    {
-      id: 3,
-      name: 'Mike Johnson',
-      position: 'Data Scientist',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      avatar:'/images/avatar.jpg'
+      name: 'Shishir Rijal',
+      position: 'Sub-Coordinator',
+      avatar:'/images/shishir_avatar.png', social:'https://www.facebook.com/ShishirRijal01',
+      phone:9822949639
     },
   ];
 
   return (
     <div className='mentors'>
-      <Title text="Mentors" />
+      <Title text="Contact" />
       <div className='mentors-main'>
         {mentorsData.map((mentor) => (
           <Card
             key={mentor.id}
             name={mentor.name}
             position={mentor.position}
-            description={mentor.description}
             avatar={mentor.avatar}
+            social={mentor.social}
+            phone={mentor.phone}
+
           />
         ))}
       </div>
