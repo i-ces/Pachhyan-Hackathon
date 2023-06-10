@@ -1,14 +1,16 @@
 import React from "react";
+import "./maincontent.css";
 
 export default function MainContent() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className=" content flex justify-center items-center h-screen">
       <div className="flex flex-col items-center text-center">
-        <div className="flex justify-center gap-20">
-          <div className="flex justify-center items-center">
-            <img src="/images/logo.png" alt="logo" width={400} />
+      <div className="flex justify-center gap-20">
+            <div className="flex justify-center items-center">
+            <img className="image" src="/images/logo.png" alt="logo" width={400}/>
+            </div>
           </div>
-        </div>
+        
         <div className="mt-8 text-4xl font-bold">
           <span>Ethos</span>
           <span
