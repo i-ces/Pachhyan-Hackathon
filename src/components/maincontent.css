@@ -1,0 +1,9 @@
+@media (max-width: 700px){
+    .content{
+        margin-top: 6rem;
+    }
+    .image{
+        margin: 20px 20px;
+        width: 300px;
+    }
+}
