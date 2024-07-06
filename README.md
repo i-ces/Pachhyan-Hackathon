@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Pachhyan Hackathon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+Pachhyan Hackathon is a major event organized to celebrate Nepal's cultural heritage through technology. It includes EthosHack, a 24-hour hackathon segment, aiming to bring together Nepalese students to innovate and collaborate.
+
+## Event Details
+
+- **Date**: 15th Ashad (8 am) to 16th Ashad (8 am)
+- **Venue**: CIT Hall, IOE, Pashchimanchal Campus, Pokhara
+
+## Prize Pool
+
+- **Grand Prize**: Rs. 15,000
+- **Runner Up**: Rs. 10,000
+
+## Guidelines
+
+- Projects should fit within the provided domain.
+- Final demonstrations must include presentations.
+- Teams must regularly update a common GitHub repository.
+- Winners will be decided by a judge panel.
+
+## Rules
+
+- Teams: 2-4 members.
+- All work must be done during the hackathon.
+- Libraries and open-source code are allowed with proper references.
+- Prizes are shared among team members.
+- The organizing committee's decisions are final.
+
+## Code of Conduct
+
+- Respect all participants and maintain a positive environment.
+- Prohibited behaviors: smoking, drinking, unethical actions.
+- No guests allowed except the core team.
+- Discrimination will lead to disqualification.
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+Clone the repository:
+```bash
+git clone https://github.com/i-ces/Pachhyan-Hackathon.git
+cd Pachhyan-Hackathon
+```
+Install dependencies:
+```bash
+npm install
+```
+
+### Running the Application
+To start the development server:
+```bash
+npm start
+```
+The application will be available at `http://localhost:3000`.
+
+### Building for Production
+To build the app for production:
+```bash
+npm run build
+```
+The build artifacts will be stored in the `build/` directory.
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `npm start`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm run eject`: Ejects the configuration files for customization.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Refer to the Create React App [documentation](https://facebook.github.io/create-react-app/docs/getting-started) for more information on configuration and advanced usage.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact Information
 
-### Code Splitting
+- **Address**: Paschimanchal Campus, Lamachaur, Pokhara, Nepal
+- **Phone**: +977 9846839865
+- **Email**: icesnepal@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For more details, visit the [Pachhyan Hackathon GitHub page](https://github.com/i-ces/Pachhyan-Hackathon).
